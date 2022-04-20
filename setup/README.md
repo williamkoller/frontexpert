@@ -23,6 +23,6 @@
 
   - config terminal:
     - instalar zsh: `sudo apt install zsh -y`
-    - clone repo: [spaceship-prompt](git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1)
-    - symlink: [spaceship-prompt](ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme")
+    - clone repo: `git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1`
+    - symlink: `ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"`
     - set `ZSH_THEME="spaceship"` no seu `.zshrc`
